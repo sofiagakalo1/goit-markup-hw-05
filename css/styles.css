@@ -10,7 +10,7 @@
   --opacity-bg: rgba(47, 48, 58, 0.8);
   --box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  --animation: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 p,
 h1,
@@ -362,7 +362,7 @@ body {
   border-radius: 50%;
   fill: var(--icon-color);
 
-  transition: backgound-color var(--animation), fill var(--animation);
+  transition: background-color var(--animation), fill var(--animation);
 }
 .team-contact-link:hover,
 .team-contact-link:focus {
